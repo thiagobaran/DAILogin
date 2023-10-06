@@ -161,8 +161,9 @@ Sigue las instrucciones proporcionadas por Expo CLI para ejecutar la aplicación
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Reconocimientos
-*dotenv
-*cors
+* dotenv
+
+* cors
 
 
 ## Creadores
