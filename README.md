@@ -91,11 +91,15 @@ Este es el README del proyecto "DAILOGIN," una aplicación de inicio de sesión 
 
 
 
-### Built With
+### Creado con
 
 * Node.js
 * React Native
 * SQL Server
+* expo
+* cors
+* dotenv
+* express
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -172,18 +176,6 @@ Este proyecto fue desarrollado por Santino Arana y Thiago Baranczuk.
 Si tienes alguna pregunta o comentario sobre este proyecto, no dudes en ponerte en contacto con nosotros a través de thiagobaranczuk@gmail.com .
 
 Link del proyecto:https://github.com/thiagobaran/DAILogin
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Recursos utilizados
-
-
-* Node.js
-* React Native
-* Sql Server
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
