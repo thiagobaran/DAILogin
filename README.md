@@ -93,13 +93,11 @@ Este es el README del proyecto "DAILOGIN," una aplicación de inicio de sesión 
 
 ### Creado con
 
-* Node.js
-* React Native
-* SQL Server
-* expo
-* cors
-* dotenv
-* express
+*![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+* ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+* ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
+* ![Expo](https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37)
+* ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -161,6 +159,10 @@ npm start
 Sigue las instrucciones proporcionadas por Expo CLI para ejecutar la aplicación en un emulador o dispositivo físico.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Reconocimientos
+*dotenv
+*cors
 
 
 ## Creadores
