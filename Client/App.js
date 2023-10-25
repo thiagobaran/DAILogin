@@ -2,6 +2,7 @@ import { StyleSheet, View, Text, SafeAreaView, TouchableOpacity } from 'react-na
 import Navigator from './Navigator'
 import React from 'react'
 
+
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
