@@ -3,48 +3,44 @@ import { Link } from '@react-navigation/native'
 import Input from '../components/Input'
 import React from 'react'
 import { commonStyles } from '../styles'
+import { getAuth, signInWithEmailAndPassword } from 'firebase/auth'
+import { userContext } from '../context/userContext'
 
 function Login({ navigation }) {
   const [username, setUsername] = React.useState('')
   const [password, setPassword] = React.useState('')
   const [message, setMessage] = React.useState('')
+  const { setUser } = React.useContext(userContext)
 
-  const login = () => {
-    const user = {
-      username: username,
-      pass: password
-    }
-    console.log(username, password)
-    const options = {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json;charset=utf-8'
-      },
-      body: JSON.stringify(user)
-    }
-    fetch('http://localhost:5000/login', options)
-      .then(response => response.json())
-      .then(response => {
-        console.log(response)
-        if (response.message === 'authenticated') {
-          setMessage('Usuario autenticado correctamente')
-          navigation.navigate('Home', {user})
-        }
-        else setMessage('Los datos ingresados no son correctos')
-      })
+  const auth = getAuth();
+
+  const handleLogin = () => {
+    console.log(username)
+    signInWithEmailAndPassword(auth, username, password)
+    .then((userCredential) => {
+      const userLogged = userCredential.user;
+      const updateUserContext = async () => await setUser(userLogged)
+      updateUserContext()
+      setMessage('Usuario autenticado correctamente')
+      navigation.replace('Home')
+    })
+    .catch((error) => {
+      console.log(error)
+      setMessage('Los datos ingresados no son correctos')
+    })
   }
 
   return (
-      <View style={commonStyles.container}>
-        <Text style={commonStyles.header}>Login</Text>
-        <Input label='Username' placeholder='Ingrese su Nombre de Usuario' setUsername={setUsername} secureTextEntry={false} />
-        <Input label='Password' placeholder='Ingrese su Contraseña' setPassword={setPassword} secureTextEntry={true} />
-        <TouchableOpacity style={commonStyles.editButton} onPress={login}>
-          <Text style={commonStyles.buttonText}>Ingresar</Text>
-        </TouchableOpacity>
-        <Text style={{padding: 10}}>Don't have an account? <Link style={styles.link} to={{ screen: 'SignUp'}}>Sign Up</Link></Text>
-        <Text style={styles.message}>{message}</Text>
-      </View>
+    <View style={commonStyles.container}>
+      <Text style={commonStyles.header}>Ingresar</Text>
+      <Input label='Email' placeholder='example@gmail.com' setUsername={setUsername} secureTextEntry={false} />
+      <Input label='Contraseña' placeholder='Ingrese su Contraseña' setPassword={setPassword} secureTextEntry={true} />
+      <TouchableOpacity style={commonStyles.editButton} onPress={handleLogin}>
+        <Text style={commonStyles.buttonText}>Ingresar</Text>
+      </TouchableOpacity>
+      <Text style={{ padding: 10 }}>¿Aun no tienes una cuenta? <Link style={styles.link} to={{ screen: 'SignUp' }}>Registrarse</Link></Text>
+      <Text style={styles.message}>{message}</Text>
+    </View>
   )
 }
 
