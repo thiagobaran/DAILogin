@@ -20,6 +20,8 @@ export default function FormPerfil({ route, navigation }) {
             apellido: apellido,
             user_uid: user_uid
         }
+        console.log("Nombre:", nombre);
+    console.log("Apellido:", apellido);
         if (hasProfile) {
             const fetchData = async () => {
                 try {
@@ -45,7 +47,7 @@ export default function FormPerfil({ route, navigation }) {
             fetchData();
         }
 
-        navigation.replace('Home');
+        navigation.replace('Perfil', { perfil: { nombre: nombre, apellido: apellido, user_uid: user_uid } });
     }
 
     return (

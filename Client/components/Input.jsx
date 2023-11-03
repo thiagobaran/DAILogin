@@ -1,20 +1,17 @@
+// Input.js
 import React from 'react';
 import { StyleSheet, TextInput, Text, View } from 'react-native';
 
-const Input = (props) => {
-    const actualizar = (text) => {
-        if (props.label === 'Username' || props.label === 'Nombre') props.setUsername(text);
-        else if (props.label === 'Password' || props.label === 'Apellido') props.setPassword(text);
-    };
-
+const Input = ({ label, placeholder, value, onChangeText, secureTextEntry }) => {
     return (
         <View style={styles.container}>
-            <Text style={styles.label}>{props.label}</Text>
+            <Text style={styles.label}>{label}</Text>
             <TextInput
-                secureTextEntry={props.secureTextEntry}
+                secureTextEntry={secureTextEntry}
                 style={styles.input}
-                placeholder={props.placeholder}
-                onChangeText={(text) => actualizar(text)}
+                placeholder={placeholder}
+                value={value}
+                onChangeText={onChangeText}
             />
         </View>
     );
@@ -41,3 +38,4 @@ const styles = StyleSheet.create({
 });
 
 export default Input;
+

@@ -13,7 +13,7 @@ export default function Home({ navigation }) {
     const [profile, setProfile] = React.useState()
     const [isLoading, setIsLoading] = React.useState(true)
 
-    const perfilRef = collection(db, "perfil")
+    const perfilRef = collection(db, "perfiles")
     const q = query(perfilRef, where("user_uid", "==", user.uid));
 
     React.useEffect(() => {

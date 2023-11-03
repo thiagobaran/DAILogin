@@ -3,7 +3,9 @@ import { View, Text, TouchableOpacity } from 'react-native'
 import { commonStyles } from '../styles'
 
 export default function Perfil({ route, navigation }) {
-  const { perfil } = route.params
+  const { perfil } = route.params;
+console.log("Nombre desde Perfil:", perfil.nombre);
+console.log("Apellido desde Perfil:", perfil.apellido);
 
   return (
     <View style={commonStyles.container}>
