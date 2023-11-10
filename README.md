@@ -92,17 +92,19 @@ Asegúrate de seguir estos pasos para configurar el proyecto correctamente
 Clonar el Repositorio: Clona este repositorio en tu máquina local usando el siguiente comando:
 ```bash
 git clone https://github.com/tuusuario/LoginRN.git
+```
 Instalar Dependencias:
 
 Para la aplicación React Native (frontend), navega a la carpeta client y ejecuta:
-
+```bash
 cd client
 npm install
-
+```
 Para el servidor Node.js (backend), navega a la carpeta server y ejecuta:
+```bash
 cd server
 npm install
-
+```
 Configurar la Base de Datos:
 Configura tu base de datos SQL Server y actualiza la configuración en el archivo dbconfig.js dentro de la carpeta server. Debes proporcionar la información de conexión necesaria.
 Variables de Entorno:
@@ -113,15 +115,21 @@ Sigue estos pasos para ejecutar la aplicación:
 Servidor (Node.js)
 
 Desde la carpeta server, ejecuta el servidor Node.js:
+```bash
 cd server
 npm start
+```
+
 El servidor se ejecutará en el puerto 5000.
 
 Cliente (React Native)
 
 Desde la carpeta client, inicia la aplicación React Native:
+``` bash
 cd client
 npm start
+```
+
 Sigue las instrucciones proporcionadas por Expo CLI para ejecutar la aplicación en un emulador o dispositivo físico.
 env
 Copy code
