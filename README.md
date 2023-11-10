@@ -90,7 +90,7 @@ Asegúrate de seguir estos pasos para configurar el proyecto correctamente
 ### Instalacion
 
 Clonar el Repositorio: Clona este repositorio en tu máquina local usando el siguiente comando:
-
+```bash
 git clone https://github.com/tuusuario/LoginRN.git
 Instalar Dependencias:
 
