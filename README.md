@@ -38,7 +38,7 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary>Tabla de contenidos</summary>
   <ol>
     <li>
       <a href="#about-the-project">Sobre el proyecto</a>
