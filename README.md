@@ -52,7 +52,6 @@
         <li><a href="#Instalacion">Instalacion</a></li>
       </ul>
     </li>
-    <li><a href="#Comenzar-la-app">Comenzar la app</a></li>
     <li><a href="#Reconocimientos">Reconocimientos</a></li>
     <li><a href="#Creadores">Creadores</a></li>
     <li><a href="#contacto">Contacto</a></li>
@@ -110,19 +109,6 @@ Variables de Entorno:
 
 Crea un archivo .env en la carpeta server y define las variables de entorno siguientes:
 
-env
-Copy code
-DB_USER=tu_usuario_de_base_de_datos
-DB_PASSWORD=tu_contraseña_de_base_de_datos
-DB_SERVER=nombre_de_servidor_de_base_de_datos
-DB_DATABASE=nombre_de_base_de_datos
-
-<p align="right">(<a href="#readme-top">Volver</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Comenzar la app
 Sigue estos pasos para ejecutar la aplicación:
 Servidor (Node.js)
 
@@ -137,6 +123,12 @@ Desde la carpeta client, inicia la aplicación React Native:
 cd client
 npm start
 Sigue las instrucciones proporcionadas por Expo CLI para ejecutar la aplicación en un emulador o dispositivo físico.
+env
+Copy code
+DB_USER=tu_usuario_de_base_de_datos
+DB_PASSWORD=tu_contraseña_de_base_de_datos
+DB_SERVER=nombre_de_servidor_de_base_de_datos
+DB_DATABASE=nombre_de_base_de_datos
 
 <p align="right">(<a href="#readme-top">Volver</a>)</p>
 
