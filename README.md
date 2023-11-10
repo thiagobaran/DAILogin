@@ -41,21 +41,21 @@
   <summary>Tabla de contenidos</summary>
   <ol>
     <li>
-      <a href="#about-the-project">Sobre el proyecto</a>
+      <a href="#Sobre-el-proyecto">Sobre el proyecto</a>
       <ul>
-        <li><a href="#built-with">Creado con</a></li>
+        <li><a href="#Creado-con">Creado con</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Para comenzar</a>
+      <a href="#Para-comenzar">Para comenzar</a>
       <ul>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#Instalacion">Instalacion</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Comenzar la app</a></li>
-    <li><a href="#contributing">Reconocimientos</a></li>
-    <li><a href="#license">Creadores</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#Comenzar-la-app">Comenzar la app</a></li>
+    <li><a href="#Reconocimientos">Reconocimientos</a></li>
+    <li><a href="#Creadores">Creadores</a></li>
+    <li><a href="#contacto">Contacto</a></li>
   </ol>
 </details>
 
@@ -88,7 +88,7 @@ Este es el README del proyecto "DAILOGIN," una aplicación de inicio de sesión 
 
 Asegúrate de seguir estos pasos para configurar el proyecto correctamente
 
-### Installation
+### Instalacion
 
 Clonar el Repositorio: Clona este repositorio en tu máquina local usando el siguiente comando:
 
