@@ -64,11 +64,10 @@
 <!-- ABOUT THE PROJECT -->
 ## Sobre el proyecto
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 Este es el README del proyecto "DAILOGIN," una aplicación de inicio de sesión y registro desarrollada con React Native y Node.js. A continuación, encontrarás toda la información necesaria para comprender, configurar y ejecutar este proyecto.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Volver</a>)</p>
 
 
 
@@ -118,7 +117,7 @@ DB_PASSWORD=tu_contraseña_de_base_de_datos
 DB_SERVER=nombre_de_servidor_de_base_de_datos
 DB_DATABASE=nombre_de_base_de_datos
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Volver</a>)</p>
 
 
 
@@ -139,7 +138,7 @@ cd client
 npm start
 Sigue las instrucciones proporcionadas por Expo CLI para ejecutar la aplicación en un emulador o dispositivo físico.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Volver</a>)</p>
 
 ## Reconocimientos
 * dotenv
@@ -151,7 +150,7 @@ Sigue las instrucciones proporcionadas por Expo CLI para ejecutar la aplicación
 
 Este proyecto fue desarrollado por Santino Arana y Thiago Baranczuk.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Volver</a>)</p>
 
 
 <!-- CONTACT -->
@@ -161,7 +160,7 @@ Si tienes alguna pregunta o comentario sobre este proyecto, no dudes en ponerte 
 
 Link del proyecto:https://github.com/thiagobaran/DAILogin
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Volver</a>)</p>
 
 
 
