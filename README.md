@@ -131,12 +131,14 @@ npm start
 ```
 
 Sigue las instrucciones proporcionadas por Expo CLI para ejecutar la aplicación en un emulador o dispositivo físico.
-env
+``` env
 Copy code
 DB_USER=tu_usuario_de_base_de_datos
 DB_PASSWORD=tu_contraseña_de_base_de_datos
 DB_SERVER=nombre_de_servidor_de_base_de_datos
 DB_DATABASE=nombre_de_base_de_datos
+```
+
 
 <p align="right">(<a href="#readme-top">Volver</a>)</p>
 
