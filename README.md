@@ -72,11 +72,10 @@ Este es el README del proyecto "DAILOGIN," una aplicación de inicio de sesión 
 
 ### Creado con
 
-* ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 * ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-* ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
 * ![Expo](https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37)
 * ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+* ![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
 
 <p align="right">(<a href="#readme-top">Volver</a>)</p>
 
@@ -143,8 +142,10 @@ DB_DATABASE=nombre_de_base_de_datos
 
 ## Reconocimientos
 * dotenv
-
 * cors
+* axios
+* React-Navigation
+* Node
 
 
 ## Creadores
