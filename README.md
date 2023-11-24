@@ -24,7 +24,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/thiagobaran/DAILogin">
-    <img src="https://miro.medium.com/v2/resize:fit:3804/1*Pjml9-K_nkQxa0YrGZusNw.gif" alt="Logo" width="80" height="80">
+    <img src="[https://miro.medium.com/v2/resize:fit:3804/1*Pjml9-K_nkQxa0YrGZusNw.gif](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.serfadu.com%2F2020%2F08%2F30%2Fel-logotipo-de-amazon-busca-transmitir-que-la-tienda-tiene-todo-lo-que-tu-necesitas-de-la-a-a-la-z%2F&psig=AOvVaw3MY15nyXovpTvJKEWp6uUp&ust=1700912055540000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPjFuKjF3IIDFQAAAAAdAAAAABAE)" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">App de Compra de productos</h3>
