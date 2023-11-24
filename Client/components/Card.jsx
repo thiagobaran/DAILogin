@@ -1,21 +1,18 @@
 import React from "react";
 import { commonStyles } from "../styles";
-import { StyleSheet, Text, View, Image, TouchableOpacity, Dimensions } from "react-native";
-import { useNavigation } from '@react-navigation/native';
+import { StyleSheet, Text, View, Image, TouchableOpacity } from "react-native";
+import { useNavigation } from '@react-navigation/native'
 
-const Card = ({ product, onDelete }) => {
-  const navigation = useNavigation();
-
-  const screenWidth = Dimensions.get("window").width;
+const Card = ({ product, onDelete}) => {
+  const navigation = useNavigation()
 
   const handleDelete = () => {
     if (onDelete) {
       onDelete(product);
     }
   };
-
   return (
-    <View style={[styles.container, { width: screenWidth / 2 - 20 }]}>
+    <View style={styles.container}>
       <Image source={{ uri: product.thumbnail }} style={styles.image}></Image>
       <Text style={styles.cardTitle}>{product.title}</Text>
       <Text style={commonStyles.price}>U$D{product.price}</Text>
