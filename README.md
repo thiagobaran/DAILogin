@@ -24,7 +24,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/thiagobaran/DAILogin">
-    <img src="[https://ams3.digitaloceanspaces.com/graffica/2023/03/Captura-de-pantalla-2023-03-09-a-las-10.06.10.png](https://cloudfront-us-east-1.images.arcpublishing.com/infobae/3IIKW4W7QP7DSID7BMHMN7DSL4.jpg)" alt="Logo" width="80" height="80">
+    <img src="https://ams3.digitaloceanspaces.com/graffica/2023/03/Captura-de-pantalla-2023-03-09-a-las-10.06.10.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">App de Compra de productos</h3>
