@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, TouchableOpacity } from 'react-native'
+import { View, Text, TouchableOpacity } from 'react-native'
 import Input from '../components/Input'
 import React from 'react'
 import { commonStyles } from '../styles'
@@ -7,7 +7,7 @@ import { dbContext } from '../context/dbContext'
 
 export default function FormPerfil({ route, navigation }) {
     const db = React.useContext(dbContext)
-    const { hasProfile, prevProfile, user_uid } = route.params
+    const { hasProfile, user_uid } = route.params
 
     console.log(hasProfile)
 
@@ -20,8 +20,6 @@ export default function FormPerfil({ route, navigation }) {
             apellido: apellido,
             user_uid: user_uid
         }
-        console.log("Nombre:", nombre);
-    console.log("Apellido:", apellido);
         if (hasProfile) {
             const fetchData = async () => {
                 try {
@@ -47,18 +45,18 @@ export default function FormPerfil({ route, navigation }) {
             fetchData();
         }
 
-        navigation.replace('Perfil', { perfil: { nombre: nombre, apellido: apellido, user_uid: user_uid } });
+        navigation.replace('VerPerfil');
     }
 
     return (
         <View style={commonStyles.container}>
             <Text style={commonStyles.header}>Bienvenido</Text>
-            <Input label='Nombre' placeholder='Ingrese su Nombre' setUsername={setNombre} secureTextEntry={false} />
-            <Input label='Apellido' placeholder='Ingrese su Apellido' setPassword={setApellido} secureTextEntry={false} />
+            <Input label='Nombre' placeholder='Ingrese su Nombre' setUsername={setNombre} secureTextEntry={false} inputMode="text" />
+            <Input label='Apellido' placeholder='Ingrese su Apellido' setPassword={setApellido} secureTextEntry={false} inputMode="text" />
             <TouchableOpacity style={commonStyles.editButton} onPress={crearPerfil}>
                 <Text style={commonStyles.buttonText}>Cargar Datos</Text>
             </TouchableOpacity>
-            <TouchableOpacity style={commonStyles.volverButton} onPress={() => navigation.navigate('Perfil', { perfil: { nombre: nombre, apellido: apellido, user_uid: user_uid } })}>
+            <TouchableOpacity style={commonStyles.volverButton} onPress={() => navigation.navigate('Perfil')}>
                 <Text style={commonStyles.buttonText}>Volver</Text>
             </TouchableOpacity>
         </View>
