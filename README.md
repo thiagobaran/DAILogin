@@ -27,10 +27,10 @@
     <img src="https://miro.medium.com/v2/resize:fit:3804/1*Pjml9-K_nkQxa0YrGZusNw.gif" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">App de LogIn</h3>
+  <h3 align="center">App de Compra de productos</h3>
 
   <p align="center">
-    Santino Arana y Thiago Baranczuk
+    Santino Arana, Thiago Baranczuk y Esteban Lopez Rizzolo
   </p>
 </div>
 
